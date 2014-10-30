@@ -1,0 +1,31 @@
+
+
+#birs_appointment_form .birs_field_content,
+#birs_appointment_form .birs_form_field select {
+  max-width: 100% !important;
+}
+
+#birs_appointment_form .birs_form_field > label {
+  font-weight: normal !important;
+  color: #8c919b !important;
+}
+
+#birs_appointment_form .birs_section {
+  font: 20px 'Oswald', Arial, sans-serif !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  color: #8c919b !important;
+}
+
+#birs_appointment_form .ui-datepicker th {
+  color: #c2061c !important;
+  text-transform: uppercase !important;
+}
+
+.birs_appointment_location,
+.birs_appointment_staff {
+  display: none;
+}

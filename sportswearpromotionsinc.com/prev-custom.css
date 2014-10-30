@@ -1,0 +1,361 @@
+/* 
+
+saving them just in case something breaks -Andrea
+
+*/
+
+/* this gallery was replaced */
+.gallery-container {
+  text-align: center !important;
+  max-width: initial !important;
+  height: 350px;
+  position: relative;
+  top: -235px;
+}
+
+#gallery-1, .carousel.flexslider {
+  display: inline-block !important;
+  width: 800px !important;
+}
+
+.flexslider .slides img {
+  display: inline-block !important;
+}
+
+/* the .award-promo was replaced */
+.award-promo .singleService.align-left .title,
+#mainContent .singleService.align-right .title {
+  clear: none;
+  margin-top: 37px !important;
+  float: left;
+  font-size: 44px !important;
+}
+
+.award-promo p {
+  float: left;
+  margin: 0 0 0 20%;
+  position: relative;
+  bottom: 55px;
+  width: 72%;
+  font-size: 14px;
+}
+
+.award-promo .icon80.left {
+  float: left;
+  margin-right: 21px;
+  margin-bottom: 9px;
+  margin-left: 8%;
+  position: relative;
+  top: 19px;
+}
+
+#mainContent .award-promo .singleService.singleService2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+  bottom: 30px;
+  background: none;
+}
+
+.award-promo .btn{
+  display: none;
+}
+
+.singleService h2 {
+  padding-top: 20px;
+}
+
+#mainContent .singleService.singleService2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 20px 10px;
+  background: #ffffff;
+}
+
+.icon80.orange {
+  width: 115px !important;
+  height: 115px !important;
+  font-size: 55px;
+  line-height: 115px !important;
+  margin-top: 35px !important;
+}
+
+/* this has no content but can't find on page */
+p.sepCenter {
+  margin-top: 10px !important;
+}
+
+/* removed this becaouse "introBox" no longer has content */
+.introBox h2 {
+  text-align: center;
+  margin: 20px 0 0 !important;
+} 
+
+
+/* there is no longer an element with an id of blue-bg */
+#blue-bg {
+  background: blue !important;
+}
+
+#blue-bg .colorBg {
+  background: transparent !important;
+}
+
+/* some of these were having conflicts with each other and others where just excesive and unnecesary styling */
+#mainContent .colorBg:nth-child(even) {
+  background-color: #ffffff !important;
+  border: none;
+}
+
+#mainContent .colorBg:nth-child(odd) {
+  background-color: #e0eeff !important;
+  border: 1px solid #e5e5e5 !important;
+  border-left: none;
+  border-right: none;
+}
+
+#mainContent .colorBg:nth-child(odd) {
+  background-color: #466a92 !important;
+  border: 1px solid #e5e5e5 !important;
+  border-left: none;
+  border-right: none;
+}
+
+@-webkit-keyframes formload {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@-moz-keyframes formload {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@keyframes formload {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@-webkit-keyframes formload2 {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@-moz-keyframes formload2 {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@keyframes formload2 {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+
+.blue-text {
+  color: #0000ff;
+  position: relative;
+  float: left;
+  top: -79px;
+  left: 185px;
+}
+
+@media (max-width: 1004px) {
+  .blue-text {
+    display: none;
+  }
+} 
+
+#gform_wrapper_1 .gfield {
+  margin-bottom: 0px;
+  -webkit-animation: formload 5s;
+  -moz-animation: formload 5s;
+  animation: formload 5s;
+}
+
+#gform_wrapper_1 .gfield input {
+  margin-bottom: 0px;
+}
+
+#gform_submit_button_1 {
+  background: #1c4a72;
+  padding: 13px 15px;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 5px;
+  -webkit-animation: formload2 5s;
+  -moz-animation: formload2 5s;
+  animation: formload2 5s;
+}
+
+#gforms_confirmation_message {
+  margin-top:100px;
+}
+
+.form-container {
+  width: 30%;
+  height: auto;
+  position: relative;
+  top: -280px;
+  z-index: 999;
+  float: right;
+  right: 20.9%;
+}
+
+@media (max-width: 1700px) {
+  .form-container {
+    width: 36%;
+    right: 14%;
+  }
+}
+
+@media (max-width: 1420px) {
+  .form-container {
+    width: 44%;
+    right: 7%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .form-container {
+    width: 40%;
+    right: 8%;
+  }
+}
+
+@media (max-width: 716px) {
+  .form-container {
+    width: 40%;
+    right: 8%;
+    top: -222px;
+  }
+}
+
+@media (max-width: 870px) and (min-width: 720px) {
+  .form-container {
+    width: 48.5%;
+    right: 2%;
+    top: -234px;
+  }
+}
+
+
+@-webkit-keyframes formload3 {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@-moz-keyframes formload3 {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@keyframes formload3 {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+
+#form-phone {
+  position:absolute;
+  z-index: 9998;
+  top: -130px;
+  left: 750px;
+  color: #000000;
+  -webkit-animation: formload3 5s;
+  -moz-animation: formload3 5s;
+  animation: formload3 5s;
+}
+
+#form-phone span {
+  color: #466a92;
+  font-size: 18px;
+  font-weight: bold;
+}
