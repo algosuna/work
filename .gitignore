@@ -1,5 +1,6 @@
 **/*-child
 **/*_child
+**/*-Child-Theme
 **/wp-config.php
 **/u-design
 **/inovado
@@ -9,3 +10,4 @@
 **/medicenter
 **/couponer
 **/geo-my-wp
+**/Avada
