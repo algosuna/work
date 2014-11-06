@@ -1,0 +1,18 @@
+#wrapper, .fusion-separator .icon-wrapper, html, body, .bbp-arrow {
+background-color: #ffffff;
+background: url(http://www.newvistaschool.org/wp-content/uploads/2014/10/bg1.png);
+/* -webkit-box-shadow: 0px 10px 5px 16px rgba(0,0,0,0.11); */
+-moz-box-shadow: 0px 10px 5px 16px rgba(0,0,0,0.11);
+/* box-shadow: 0px 10px 5px 16px rgba(0,0,0,0.11); */
+/* -webkit-box-shadow: 0px 10px 5px 6px rgba(209,232,201,1); */
+-moz-box-shadow: 0px 10px 5px 6px rgba(209,232,201,1);
+/* box-shadow: 0px 10px 5px 6px rgba(209,232,201,1); */
+-webkit-box-shadow: 0px 10px 5px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 10px 5px 1px rgba(0,0,0,0.1);
+box-shadow: 0px 10px 5px 1px rgba(0,0,0,0.1);
+}
+
+.footer-area {
+background-color: #363839 url(http://www.newvistaschool.org/wp-content/uploads/2014/10/bg-footer.png);
+background: url(http://www.newvistaschool.org/wp-content/uploads/2014/10/bg-footer.png);
+}
