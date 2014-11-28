@@ -1,0 +1,87 @@
+/* Created by Artisteer v4.0.0.58475 */
+
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.dog-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.dog-header
+{
+   z-index: 1;
+}
+
+.dog-content-layout, .dog-content-layout-row, .dog-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.dog-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.dog-vmenu, ul.dog-vmenu ul, ul.dog-vmenu li{
+   zoom: 1;
+}
+
+ul.dog-vmenu ul 
+{
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.dog-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.dog-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.dog-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.dog-postheadericons span{
+   zoom: 1;
+}
+.dog-postcontent {
+   height: 1%;
+}
+
+.dog-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.dog-content 
+{
+   width: auto;
+   float:none;
+}
+

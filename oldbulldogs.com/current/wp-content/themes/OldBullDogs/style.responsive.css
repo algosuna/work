@@ -1,0 +1,258 @@
+/* Created by Artisteer v4.0.0.58475 */
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive .dog-content-layout img,
+.responsive .dog-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .dog-content-layout img 
+{
+   float: none !important;
+}
+    
+.responsive .dog-content-layout .dog-sidebar0, 
+.responsive .dog-content-layout .dog-sidebar1, 
+.responsive .dog-content-layout .dog-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .dog-content-layout, 
+.responsive .dog-content-layout-row, 
+.responsive .dog-layout-cell 
+{
+   display: block;
+}
+  
+.responsive .dog-slidenavigator 
+{
+   display: none !important;
+}
+    
+.responsive .dog-collage 
+{
+   display: none !important;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto !important;
+}
+  
+.responsive .dog-textblock 
+{
+   display: none;
+}
+
+.responsive.responsive-tablet .dog-vmenublock,
+.responsive.responsive-tablet .dog-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .dog-responsive-embed 
+{
+   position: relative;
+   padding-bottom: 56.25%;
+   /* 16:9 */
+	height: 0;
+}
+
+.responsive .dog-responsive-embed iframe,
+.responsive .dog-responsive-embed object,
+.responsive .dog-responsive-embed embed
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.responsive .dog-header 
+{
+   width: auto;
+   height: auto;
+   min-height: 100px;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+.responsive .dog-header .dog-headline, 
+.responsive .dog-header .dog-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+}
+    
+.responsive .dog-header .dog-headline a, 
+.responsive .dog-header .dog-slogan 
+{
+   white-space: normal !important;
+}
+    
+.responsive .dog-header .dog-shapes .dog-textblock 
+{
+   padding: 2% !important;
+   margin: 2% !important;
+   line-height: normal;
+   background-image: none;
+   background-color: rgba(127, 127, 127, 0.7);
+   color: #eee !important;
+   display: none;
+   top: auto;
+   left: auto;
+   width: auto;
+   height: auto;
+}
+
+.responsive .dog-header .dog-shapes .dog-textblock *,
+.responsive .dog-header .dog-shapes .dog-textblock a:hover,
+.responsive .dog-header .dog-shapes .dog-textblock a:visited,
+.responsive .dog-header .dog-shapes .dog-textblock a:link 
+{
+   color: #eee !important;
+}
+    
+.responsive .dog-header .dog-shapes .dog-textblock>div 
+{
+   display: none;
+   top: auto;
+   left: auto;
+   width: auto;
+   height: auto;
+   padding: 0 !important;
+}
+
+.responsive .dog-header .dog-shapes,
+.responsive .dog-header .dog-shapes *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.responsive .dog-header #dog-flash-area,
+.responsive .dog-header .dog-shapes>*
+{
+   display: none;
+}
+
+.responsive #dog-header-bg 
+{
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+/* Search */
+.responsive .dog-shapes~.dog-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+.responsive .dog-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+#dog-resp {
+   display: none;
+}
+
+@media all and (max-width: 768px)
+{
+    #dog-resp, #dog-resp-t { display: block; }
+    #dog-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #dog-resp, #dog-resp-m { display: block; }
+    #dog-resp-t { display: none; }
+}
+
+.responsive .dog-content-layout, 
+.responsive .dog-content-layout-row, 
+.responsive .dog-layout-cell 
+{
+   display: block;
+}
+
+.responsive .dog-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+   border-right-width: 0 !important;
+   border-left-width: 0 !important;
+   border-radius: 0 !important;
+}
+
+.responsive .dog-content-layout:after, 
+.responsive .dog-content-layout-row:after, 
+.responsive .dog-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive .dog-post
+{
+   border-radius: 0;
+}
+
+.responsive .dog-footer-inner
+{
+   width: auto;
+   padding: 2% !important;
+}
+.responsive .dog-footer
+{
+   margin-top: 1%;
+}
+
+.responsive .responsive-tablet-layout-cell 
+{
+   width: 50% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+

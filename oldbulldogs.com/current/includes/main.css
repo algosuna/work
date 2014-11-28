@@ -1,0 +1,207 @@
+.dog_gallery_section_header {
+color:#FF0000;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 26px;
+font-weight:bold;
+margin-left:0px;
+}
+
+.dog_table{
+margin: auto;
+}
+
+.dog_gallery_header {
+color:#FF0000;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 22px;
+margin-left:25px;
+}
+
+.dog_gallery {
+color:#FF0000;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin-left:25px;
+}
+
+.pedigree {
+color:#FF0000;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+margin-left:0px;
+}
+
+
+
+.alertbig		{  font-family: Arial, Helvetica, sans-serif; font-size: 18px;	font-weight: bold; color: #FF0000 }
+.title			{  font-family: Arial, Helvetica, sans-serif; font-size: 14px;	font-weight: bold; color: #00009C }
+.section		{  font-family: Arial, Helvetica, sans-serif; font-size: 14px;	font-weight: bold}
+.heading		{  font-family: Arial, Helvetica, sans-serif; font-size: 13px;	font-weight: bold}
+.headingred		{  font-family: Arial, Helvetica, sans-serif; font-size: 13px;	font-weight: bold; color: #FF0000 }
+.normal			{  font-family: Arial, Helvetica, sans-serif; font-size: 12px;	font-weight: normal}
+.normalwhite	{  font-family: Arial, Helvetica, sans-serif; font-size: 12px;	font-weight: normal; color: #FFFFFF }
+.smallprint		{  font-family: Arial, Helvetica, sans-serif; font-size: 11px;  font-weight: normal}
+.smallprintwhite{  font-family: Arial, Helvetica, sans-serif; font-size: 11px;  font-weight: normal; color: #FFFFFF }
+
+.select			{  font-family: Arial, Helvetica, sans-serif; font-size: 12px;  font-weight: normal}
+.button			{  font-family: Arial, Helvetica, sans-serif; font-size: 12px;  font-weight: normal}
+
+.textinput   	{  font-family: Courier New, Courier, mono;   font-size: 13px;  font-weight: normal}
+.checkbox       {  font-family: Arial, Helvetica, sans-serif; font-size: 12px;  font-weight: normal}
+
+.tabhilite		{  font-family: Arial, Helvetica, sans-serif; font-size: 18px;	font-weight: bold;   color: #FFFFFF }
+.tabnormal		{  font-family: Arial, Helvetica, sans-serif; font-size: 12px;	font-weight: normal; color: #00009C }
+.tabsubtext		{  font-family: Arial, Helvetica, sans-serif; font-size: 14px;	font-weight: normal; color: #FFFFFF }
+
+.navbartitle 	{color: #00FF00; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight:bold}
+.nounderline 	{text-decoration:none; color:#000000; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+
+.underline 		{color: #0033CC; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+.underline:hover{background-color: #99CC99}
+
+.signout 		{color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight:bold}
+.signout:visited{color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight:bold}
+.signout:hover 	{color: #FF0000}
+.signout:visited{color: #FFFFFF}
+.signout:active	{color: #FFFFFF}
+
+.help 			{color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight:bold}
+.help:visited	{color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight:bold}
+.help:hover 	{color: #00FF00}
+.help:visited 	{color: #FFFFFF}
+.help:active 	{color: #FFFFFF}
+
+.home 			{color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif, sans-serif; font-size: 9pt; font-weight:bold}
+.home:visited	{color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif, sans-serif; font-size: 9pt; font-weight:bold}
+.home:hover 	{color: #00FF00}
+.home:active 	{color: #FFFFFF}
+
+.editview 		{color: #0033CC; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+
+.evlink 		{color: #0033CC; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+.evlink:hover 	{background-color: #99CC99}
+
+.disabled 		{color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+
+.reverseRed 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; background-color: #FF0000}
+.catListing 	{BACKGROUND-COLOR: #dddddd; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 11px;}
+
+
+.siteListing 		{BACKGROUND-COLOR: #eeeeee; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 7.5pt;}
+.siteListingSec 	{BACKGROUND-COLOR: #eeeeee; COLOR: #FF0000; FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 7.5pt;}
+.siteListingLv1		{BACKGROUND-COLOR: #eeeeee; COLOR: #000066; FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 7.5pt;}
+.siteListingLv2		{BACKGROUND-COLOR: #eeeeee; COLOR: #004400; FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 7.5pt;}
+
+.qbbordercolor 	{color: #666666}
+.qbmenuhead		{text-decoration:none; color:#000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bold}
+.qbmenufont		{font-size: 7pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; color: #000000}
+.qbsubmenudef	{display:none; position:absolute; width:160; border:1px solid #666666; background-image: url(images/incnavbarmenubg.jpg); background-color: #f0f8ff; padding-top:0; padding-left:0; padding-bottom:10; z-index:9}
+
+B {font-weight: bold}
+SMALL {font-size: 10px}
+
+.text{
+	font-size: 12px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	color:#ffffff;
+	}
+.dogtext{
+	font-size: 14px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	color:#ffffff;
+	padding: 2px 2px 2px 0px;
+	}	
+.header{
+	font-size: 14px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+	color:#ffff00;
+	}	
+.redtext{
+	font-size: 12px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+	color:#ff0000;
+	}	
+.largetext{
+	font-size: 16px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	color:#ffffff;
+	}	
+.largered{
+	font-size: 18px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+	color:#ff0000;
+	}		
+A.menulinks{
+	font-size: 12px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	color:#ff2B2B;
+	font-weight: bold;
+	}
+ A.menulinks:hover{
+ 	font-size: 12px;
+ 	font-family:  Arial, Helvetica, sans-serif;
+    color:#ffff00;
+    text-decoration: underline;
+	font-weight: bold;
+    }
+A.menulinks:visited{
+font-size: 12px;
+font-family:  Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-weight: bold;
+color:#ff2B2B;
+}
+.doglinks {
+		padding: 2px 2px 2px 0px;
+}
+A.doglinks{
+	font-size: 14px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	color:#ff0000;
+	}
+ A.doglinks:hover{
+ 	font-size: 14px;
+ 	font-family:  Arial, Helvetica, sans-serif;
+    color:#ffff00;
+    text-decoration: underline;
+    }         
+.redHeader {font-size:22px; color: #FF0000; font-weight: bold; }
+.redPageText {font-size: 18px; color: #FF0000; }
+.mainBodySpacing {padding: 15px 15px 15px 25px; }
+A.bottomLinks{	font-size: 12px; font-family:  Arial, Helvetica, sans-serif; text-decoration: underline; color:#ff0000;}
+.servicetext {padding: 15px 15px 15px 15px; }
+.appHeaderText {font-size:22px; padding: 7px 7px 7px 7px; color: #FF0000;}
+.appNoteText {font-size:18px; padding: 7px 7px 7px 7px; color: #FF0000;}
+.appText {font-size: 18px; padding: 4px 4px 4px 7px; color: #FF0000;}
+A.bulldoglinks{
+	font-size: 16px;
+	font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	color:#ff2B2B;
+	font-weight: bold;
+	}
+ A.bulldoglinks:hover{
+ 	font-size: 16px;
+ 	font-family:  Arial, Helvetica, sans-serif;
+    color:#ffff00;
+    text-decoration: underline;
+	font-weight: bold;
+    }
+A.bulldoglinks:visited{
+font-size: 16px;
+font-family:  Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-weight: bold;
+color:#ff2B2B;
+}

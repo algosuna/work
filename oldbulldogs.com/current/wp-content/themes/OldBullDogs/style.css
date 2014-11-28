@@ -1,0 +1,2243 @@
+/*
+Theme Name: OldBullDogs
+Theme URI: 
+Description: Designed By SouthSeas
+Version: 1.9
+Author: SouthSeas Marketing Inc.
+Author URI: http://www.SouthSeasMarketing.com
+Tags: flexible-width, valid HTML5, valid XHTML, widgets
+*/
+
+/* Created by Artisteer v4.0.0.58475 */
+
+#dog-main
+{
+   background: #000000 url('images/page.png') scroll;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.dog-hmenu
+{
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.dog-button
+{
+   border: 0;
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #CC0000;
+   background: linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -moz-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -o-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -ms-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   -svg-background: linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   padding:0 30px;
+   margin:0 auto;
+   height:37px;
+}
+
+.dog-postcontent,
+.dog-postheadericons,
+.dog-postfootericons,
+.dog-blockcontent,
+ul.dog-vmenu a 
+{
+   text-align: left;
+}
+
+.dog-postcontent,
+.dog-postcontent li,
+.dog-postcontent table,
+.dog-postcontent a,
+.dog-postcontent a:link,
+.dog-postcontent a:visited,
+.dog-postcontent a.visited,
+.dog-postcontent a:hover,
+.dog-postcontent a.hovered
+{
+   font-size: 14px;
+   font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-shadow: 1.4px 1.4px 0 rgba(23, 23, 23, 0.81);
+}
+
+.dog-postcontent p
+{
+   margin: 13px 0;
+}
+
+.dog-postcontent h1, .dog-postcontent h1 a, .dog-postcontent h1 a:link, .dog-postcontent h1 a:visited, .dog-postcontent h1 a:hover,
+.dog-postcontent h2, .dog-postcontent h2 a, .dog-postcontent h2 a:link, .dog-postcontent h2 a:visited, .dog-postcontent h2 a:hover,
+.dog-postcontent h3, .dog-postcontent h3 a, .dog-postcontent h3 a:link, .dog-postcontent h3 a:visited, .dog-postcontent h3 a:hover,
+.dog-postcontent h4, .dog-postcontent h4 a, .dog-postcontent h4 a:link, .dog-postcontent h4 a:visited, .dog-postcontent h4 a:hover,
+.dog-postcontent h5, .dog-postcontent h5 a, .dog-postcontent h5 a:link, .dog-postcontent h5 a:visited, .dog-postcontent h5 a:hover,
+.dog-postcontent h6, .dog-postcontent h6 a, .dog-postcontent h6 a:link, .dog-postcontent h6 a:visited, .dog-postcontent h6 a:hover,
+.dog-blockheader .t, .dog-blockheader .t a, .dog-blockheader .t a:link, .dog-blockheader .t a:visited, .dog-blockheader .t a:hover,
+.dog-vmenublockheader .t, .dog-vmenublockheader .t a, .dog-vmenublockheader .t a:link, .dog-vmenublockheader .t a:visited, .dog-vmenublockheader .t a:hover,
+.dog-headline, .dog-headline a, .dog-headline a:link, .dog-headline a:visited, .dog-headline a:hover,
+.dog-slogan, .dog-slogan a, .dog-slogan a:link, .dog-slogan a:visited, .dog-slogan a:hover,
+.dog-postheader, .dog-postheader a, .dog-postheader a:link, .dog-postheader a:visited, .dog-postheader a:hover
+{
+   font-size: 30px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.dog-postcontent a, .dog-postcontent a:link
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #CC0000;
+}
+
+.dog-postcontent a:visited, .dog-postcontent a.visited
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #CC0000;
+}
+
+.dog-postcontent  a:hover, .dog-postcontent a.hover
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #FF0000;
+}
+
+.dog-postcontent h1
+{
+   color: #CC0000;
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: 'Californian FB', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+}
+
+.dog-blockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: 'Californian FB', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+}
+
+.dog-postcontent h1 a, .dog-postcontent h1 a:link, .dog-postcontent h1 a:hover, .dog-postcontent h1 a:visited, .dog-blockcontent h1 a, .dog-blockcontent h1 a:link, .dog-blockcontent h1 a:hover, .dog-blockcontent h1 a:visited 
+{
+   font-size: 22px;
+   font-family: 'Californian FB', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+}
+
+.dog-postcontent h2
+{
+   color: #CC0000;
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-blockcontent h2
+{
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h2 a, .dog-postcontent h2 a:link, .dog-postcontent h2 a:hover, .dog-postcontent h2 a:visited, .dog-blockcontent h2 a, .dog-blockcontent h2 a:link, .dog-blockcontent h2 a:hover, .dog-blockcontent h2 a:visited 
+{
+   font-size: 14px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h3
+{
+   color: #CC0000;
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-blockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h3 a, .dog-postcontent h3 a:link, .dog-postcontent h3 a:hover, .dog-postcontent h3 a:visited, .dog-blockcontent h3 a, .dog-blockcontent h3 a:link, .dog-blockcontent h3 a:hover, .dog-blockcontent h3 a:visited 
+{
+   font-size: 14px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h4
+{
+   color: #CC0000;
+   margin: 10px 0 0;
+   font-size: 10px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-blockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 10px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h4 a, .dog-postcontent h4 a:link, .dog-postcontent h4 a:hover, .dog-postcontent h4 a:visited, .dog-blockcontent h4 a, .dog-blockcontent h4 a:link, .dog-blockcontent h4 a:hover, .dog-blockcontent h4 a:visited 
+{
+   font-size: 10px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h5
+{
+   color: #CC0000;
+   margin: 10px 0 0;
+   font-size: 9px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-blockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 9px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h5 a, .dog-postcontent h5 a:link, .dog-postcontent h5 a:hover, .dog-postcontent h5 a:visited, .dog-blockcontent h5 a, .dog-blockcontent h5 a:link, .dog-blockcontent h5 a:hover, .dog-blockcontent h5 a:visited 
+{
+   font-size: 9px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h6
+{
+   color: #CC0000;
+   margin: 10px 0 0;
+   font-size: 8px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-blockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 8px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-postcontent h6 a, .dog-postcontent h6 a:link, .dog-postcontent h6 a:hover, .dog-postcontent h6 a:visited, .dog-blockcontent h6 a, .dog-blockcontent h6 a:link, .dog-blockcontent h6 a:hover, .dog-blockcontent h6 a:visited 
+{
+   font-size: 8px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+header, footer, article, nav, #dog-hmenu-bg, .dog-sheet, .dog-hmenu a, .dog-vmenu a, .dog-slidenavigator > a, .dog-checkbox:before, .dog-radiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #dog-hmenu-bg, .dog-sheet, .dog-slidenavigator > a, .dog-checkbox:before, .dog-radiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 700px;
+   color: #CC0000;
+}
+
+.clearfix:before, .clearfix:after {
+   content: "";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.cleared {
+   font: 0/0 serif;
+   clear: both;
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .dog-postcontent li h1, .dog-blockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .dog-postcontent li h2, .dog-blockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .dog-postcontent li h3, .dog-blockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .dog-postcontent li h4, .dog-blockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .dog-postcontent li h5, .dog-blockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .dog-postcontent li h6, .dog-blockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .dog-postcontent li p, .dog-blockcontent li p 
+{
+   margin:1px;
+}
+
+
+.dog-shapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.dog-slider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.dog-slidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.dog-slidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+
+
+
+
+.dog-footer .layout-item-0 { padding: 20px;  }
+.dog-footer .layout-item-1 { padding: 10px;  }
+.ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+.ie6 .post .layout-cell {border:none !important; padding:0 !important; }
+
+.dog-header
+{
+   margin:0 auto;
+   height: 250px;
+   background-image: url('images/header.gif');
+   background-position: center top;
+   background-repeat: no-repeat;
+   position: relative;
+   min-width: 800px;
+   max-width: 1920px;
+   width: 100%;
+   z-index: auto !important;
+}
+
+.responsive .dog-header 
+{
+   background-image: url('images/header.gif');
+   background-position: center center;
+}
+
+.dog-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+.dog-sheet
+{
+   background: #000000;
+   padding:3px;
+   margin:0 auto;
+   position:relative;
+   cursor:auto;
+   width: 100%;
+   min-width: 700px;
+   max-width: 1920px;
+   z-index: auto !important;
+}
+
+.dog-layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.dog-content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+   border-collapse: collapse;
+}
+
+.dog-content-layout-row 
+{
+   display: table-row;
+}
+
+.dog-layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+.dog-vmenublock
+{
+   margin:2px;
+}
+div.dog-vmenublock img
+{
+   margin: 0;
+}
+
+.dog-vmenublockcontent
+{
+   margin:0 auto;
+}
+
+ul.dog-vmenu, ul.dog-vmenu ul
+{
+   list-style: none;
+   display: block;
+}
+
+ul.dog-vmenu, ul.dog-vmenu li
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   line-height: 0;
+}
+
+ul.dog-vmenu
+{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+ul.dog-vmenu ul
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+ul.dog-vmenu ul.active
+{
+   display: block;
+}
+
+ul.dog-vmenu>li>a
+{
+   background: #CC0000;
+   background: linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   background: -moz-linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   background: -o-linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   background: -ms-linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   background: linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   -svg-background: linear-gradient(top, #E00000 0, #E00000 50%, #E00000 60%, #B20000 100%) no-repeat;
+   border:2px solid #FF0000;
+   padding:0 2px 0 5px;
+   margin:0 auto;
+   color: #FFFFFF;
+   min-height: 20px;
+   line-height: 20px;
+}
+ul.dog-vmenu a 
+{
+   display: block;
+   cursor: pointer;
+   z-index: 1;
+   font-size: 14px;
+   font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   line-height: 100%;
+   text-shadow: 1.4px 1.4px 0 rgba(23, 23, 23, 0.82);
+   position:relative;
+}
+
+ul.dog-vmenu li{
+   position:relative;
+}
+
+ul.dog-vmenu>li
+{
+   margin-top: 11px;
+}
+ul.dog-vmenu>li>ul
+{
+   padding: 0;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+ul.dog-vmenu>li:first-child
+{
+   margin-top:0;
+}
+
+ul.dog-vmenu>li>a:hover, ul.dog-vmenu>li>a.active:hover
+{
+   background: #000000;
+   background: linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   background: -moz-linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   background: -o-linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   background: -ms-linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   background: linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   -svg-background: linear-gradient(top, #333333 0, #050505 100%) no-repeat;
+   border:2px solid #FF0A0A;
+   padding:0 2px 0 5px;
+   margin:0 auto;
+}
+ul.dog-vmenu>li>a:hover, ul.dog-vmenu>li>a.active:hover
+{
+   text-decoration: none;
+}
+
+ul.dog-vmenu a:hover, ul.dog-vmenu a.active:hover 
+{
+   color: #FF0000;
+}
+
+ul.dog-vmenu>li>a.active:hover>span.border-top, ul.dog-vmenu>li>a.active:hover>span.border-bottom 
+{
+   background-color: transparent;
+}
+
+ul.dog-vmenu>li>a.active
+{
+   background: #CC0000;
+   background: linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -moz-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -o-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: -ms-linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   background: linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   -svg-background: linear-gradient(top, #F50000 0, #A80000 100%) no-repeat;
+   border:2px solid #FF0000;
+   padding:0 2px 0 5px;
+   margin:0 auto;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+ul.dog-vmenu>li>ul:before
+{
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+ul.dog-vmenu li li a
+{
+   margin:0 auto;
+   position: relative;
+}
+ul.dog-vmenu ul li
+{
+   margin: 0;
+   padding: 0;
+}
+ul.dog-vmenu li li{
+   position: relative;
+   margin-top: 0;
+}
+
+ul.dog-vmenu ul a
+{
+   display: block;
+   position: relative;
+   min-height: 24px;
+   overflow: visible;
+   padding: 0;
+   padding-left: 20px;
+   padding-right: 20px;
+   z-index: 0;
+   line-height: 24px;
+   color: #6A7F95;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.dog-vmenu ul a:visited, ul.dog-vmenu ul a.active:hover, ul.dog-vmenu ul a:hover, ul.dog-vmenu ul a.active
+{
+   line-height: 24px;
+   color: #6A7F95;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.dog-vmenu ul ul a
+{
+   padding-left: 40px;
+}
+ul.dog-vmenu ul ul ul a
+{
+   padding-left: 60px;
+}
+ul.dog-vmenu ul ul ul ul a
+{
+   padding-left: 80px;
+}
+ul.dog-vmenu ul ul ul ul ul a
+{
+   padding-left: 100px;
+}
+
+ul.dog-vmenu ul>li>a:hover, ul.dog-vmenu ul>li>a.active:hover
+{
+   margin:0 auto;
+}
+ul.dog-vmenu ul li a:hover, ul.dog-vmenu ul li a.active:hover
+{
+   text-decoration: none;
+   color: #FF0000;
+}
+
+ul.dog-vmenu ul a:hover:after
+{
+   background-position: center ;
+}
+ul.dog-vmenu ul a.active:hover:after
+{
+   background-position: center ;
+}
+ul.dog-vmenu ul a.active:after
+{
+   background-position: bottom ;
+}
+
+ul.dog-vmenu ul>li>a.active
+{
+   margin:0 auto;
+}
+ul.dog-vmenu ul a.active, ul.dog-vmenu ul a:hover, ul.dog-vmenu ul a.active:hover
+{
+   text-decoration: none;
+   color: #8D1E11;
+}
+
+div.dog-block img
+{
+   border: none;
+   margin: 0;
+}
+
+.dog-blockheader
+{
+   padding:6px 10px;
+   margin:0 auto;
+}
+.dog-blockheader .t,
+.dog-blockheader .t a,
+.dog-blockheader .t a:link,
+.dog-blockheader .t a:visited, 
+.dog-blockheader .t a:hover
+{
+   color: #CC0000;
+   font-size: 24px;
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   margin: 0 10px;
+}
+
+.dog-blockcontent
+{
+   background: #610000;
+   background: transparent;
+   padding:10px;
+   margin:0 auto;
+   color: #CC0000;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.dog-blockcontent table,
+.dog-blockcontent li, 
+.dog-blockcontent a,
+.dog-blockcontent a:link,
+.dog-blockcontent a:visited,
+.dog-blockcontent a:hover
+{
+   color: #CC0000;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-blockcontent p
+{
+   margin: 0 5px;
+}
+
+.dog-blockcontent a, .dog-blockcontent a:link
+{
+   color: #CC0000;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+
+.dog-blockcontent a:visited, .dog-blockcontent a.visited
+{
+   color: #CC0000;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+
+.dog-blockcontent a:hover, .dog-blockcontent a.hover
+{
+   color: #FF0000;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: underline;
+}
+.dog-block ul>li:before
+{
+   content:url('images/blockbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -12px;
+}
+.opera .dog-block ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.dog-block li
+{
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 125%;
+   color: #9AA8B7;
+}
+
+.dog-block ul>li, .dog-block ol
+{
+   padding: 0;
+}
+
+.dog-block ul>li
+{
+   padding-left: 12px;
+}
+
+.dog-breadcrumbs
+{
+   margin:0 auto;
+}
+
+a.dog-button,
+a.dog-button:link,
+a:link.dog-button:link,
+body a.dog-button:link,
+a.dog-button:visited,
+body a.dog-button:visited,
+input.dog-button,
+button.dog-button
+{
+   text-decoration: none;
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #FFFFFF;
+   margin: 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 37px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.dog-button img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .dog-button
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea
+{
+   vertical-align: middle;
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+}
+
+.dog-block select 
+{
+   width:96%;
+}
+
+input.dog-button
+{
+   float: none !important;
+}
+
+.dog-button.active, .dog-button.active:hover
+{
+   background: #7F1B10;
+   background: linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   background: -moz-linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   background: -o-linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   background: -ms-linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   background: linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   -svg-background: linear-gradient(top, #A32314 0, #5B130B 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   padding:0 30px;
+   margin:0 auto;
+}
+.dog-button.active, .dog-button.active:hover {
+   color: #FFB3B3 !important;
+}
+
+.dog-button.hover, .dog-button:hover
+{
+   background: #E85545;
+   background: linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   background: -moz-linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   background: -o-linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   background: -ms-linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   background: linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   -svg-background: linear-gradient(top, #EC7265 0, #E43825 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.1);
+   padding:0 30px;
+   margin:0 auto;
+}
+.dog-button.hover, .dog-button:hover {
+   color: #FEFBFA !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   background: #F8FAFB;
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   width: 100%;
+   padding: 8px 0;
+   color: #7A0000 !important;
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+}
+input.dog-error, textarea.dog-error
+{
+   background: #F8FAFB;
+   border:1px solid #FF0000;
+   margin:0 auto;
+}
+input.dog-error, textarea.dog-error {
+   color: #7A0000 !important;
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+}
+form.dog-search input[type="text"]
+{
+   background: #F8FAFB;
+   border-radius: 0;
+   margin:0 auto;
+   width: 100%;
+   padding: 0 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #7A0000 !important;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.dog-search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.dog-search input
+{
+   top:0;
+   right:0;
+}
+
+form.dog-search>input {
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+ 
+form.dog-search input[type="submit"]
+{
+   background: #EE7F72;
+   margin:0 auto;
+   color: #7F1B10 !important;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:absolute;
+   display:block;
+   left: auto;
+   border: 0;
+   top: 0;
+   bottom: 0;
+   right: 	0;
+}
+
+label.dog-checkbox:before
+{
+   background: #F8FAFB;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+}
+label.dog-checkbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+}
+
+.dog-checkbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.dog-checkbox.active:before
+{
+   background: #7C8FA2;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.dog-checkbox.hovered:before
+{
+   background: #A0ADBB;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.dog-radiobutton:before
+{
+   background: #F8FAFB;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+}
+label.dog-radiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 12px;
+   display: inline-block;
+}
+
+.dog-radiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.dog-radiobutton.active:before
+{
+   background: #7C8FA2;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+label.dog-radiobutton.hovered:before
+{
+   background: #A0ADBB;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+.dog-post
+{
+   padding:12px;
+   margin:3px;
+}
+a img
+{
+   border: 0;
+}
+
+.dog-article img, img.dog-article, .dog-block img, .dog-footer img
+{
+   margin: 0 0 0 0;
+}
+
+.dog-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.dog-article table, table.dog-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.dog-post .dog-content-layout-br
+{
+   height: 0;
+}
+
+.dog-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 0 0 0 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.dog-collage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.dog-postheader
+{
+   color: #CC0000;
+   margin: 6px 0;
+   font-size: 28px;
+   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-align: center;
+}
+
+.dog-postheader a, 
+.dog-postheader a:link, 
+.dog-postheader a:visited,
+.dog-postheader a.visited,
+.dog-postheader a:hover,
+.dog-postheader a.hovered
+{
+   font-size: 28px;
+   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-align: center;
+}
+
+.dog-postheader a, .dog-postheader a:link
+{
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #CC0000;
+}
+
+.dog-postheader a:visited, .dog-postheader a.visited
+{
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #FF8080;
+}
+
+.dog-postheader a:hover,  .dog-postheader a.hovered
+{
+   font-family: Oswald, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #9E0000;
+}
+
+.dog-postheadericons,
+.dog-postheadericons a,
+.dog-postheadericons a:link,
+.dog-postheadericons a:visited,
+.dog-postheadericons a:hover
+{
+   font-size: 12px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #B5BFCA;
+}
+
+.dog-postheadericons
+{
+   display:inline-block;
+   padding: 1px;
+}
+
+.dog-postheadericons a, .dog-postheadericons a:link
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #97A6B5;
+}
+
+.dog-postheadericons a:visited, .dog-postheadericons a.visited
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #97A6B5;
+}
+
+.dog-postheadericons a:hover, .dog-postheadericons a.hover
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: underline;
+   color: #BA2717;
+}
+
+.dog-postpdficon:before
+{
+   content:url('images/postpdficon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .dog-postpdficon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.dog-postprinticon:before
+{
+   content:url('images/postprinticon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .dog-postprinticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.dog-postemailicon:before
+{
+   content:url('images/postemailicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .dog-postemailicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.dog-postcontent ul>li:before,  .dog-post ul>li:before,  .dog-textblock ul>li:before
+{
+   content:url('images/postbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .dog-postcontent ul>li:before, .opera   .dog-post ul>li:before, .opera   .dog-textblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.dog-postcontent li, .dog-post li, .dog-textblock li
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   word-spacing: 0;
+   line-height: 100%;
+   color: #8294A6;
+   margin: 3px 0 3px 5px;
+}
+
+.dog-postcontent ul>li, .dog-post ul>li, .dog-textblock ul>li, .dog-postcontent ol, .dog-post ol, .dog-textblock ol
+{
+   padding: 0;
+}
+
+.dog-postcontent ul>li, .dog-post ul>li, .dog-textblock ul>li
+{
+   padding-left: 9px;
+}
+
+.dog-postcontent ul>li:before,  .dog-post ul>li:before,  .dog-textblock ul>li:before
+{
+   margin-left: -9px;
+}
+
+.dog-postcontent ol, .dog-post ol, .dog-textblock ol, .dog-postcontent ul, .dog-post ul, .dog-textblock ul
+{
+   margin: 1em 0 1em 5px;
+}
+
+.dog-postcontent li ol, .dog-post li ol, .dog-textblock li ol, .dog-postcontent li ul, .dog-post li ul, .dog-textblock li ul
+{
+   margin: 0.5em 0 0.5em 5px;
+}
+
+.dog-postcontent li, .dog-post li, .dog-textblock li
+{
+   margin: 3px 0 3px 0;
+}
+
+.dog-postcontent ol>li, .dog-post ol>li, .dog-textblock ol>li
+{
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.dog-postcontent ul>li, .dog-post ul>li, .dog-textblock ul>li
+{
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background: #222930 url('images/postquote.png') no-repeat scroll;
+   padding:10px 10px 10px 38px;
+   margin:10px 10px 10px 50px;
+   color: #8E9EAE;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .dog-postcontent blockquote a, .dog-blockcontent blockquote a, .dog-footer blockquote a,
+blockquote a:link, .dog-postcontent blockquote a:link, .dog-blockcontent blockquote a:link, .dog-footer blockquote a:link,
+blockquote a:visited, .dog-postcontent blockquote a:visited, .dog-blockcontent blockquote a:visited, .dog-footer blockquote a:visited,
+blockquote a:hover, .dog-postcontent blockquote a:hover, .dog-blockcontent blockquote a:hover, .dog-footer blockquote a:hover
+{
+   color: #8E9EAE;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.dog-postcontent blockquote p,
+.dog-blockcontent blockquote p,
+.dog-footer blockquote p
+{
+   margin: 0;
+}
+
+.dog-postfootericons,
+.dog-postfootericons a,
+.dog-postfootericons a:link,
+.dog-postfootericons a:visited,
+.dog-postfootericons a:hover
+{
+   font-size: 12px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #CCD4DB;
+}
+
+.dog-postfootericons
+{
+   display:inline-block;
+   padding: 1px;
+}
+
+.dog-postfootericons a, .dog-postfootericons a:link
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #97A6B5;
+}
+
+.dog-postfootericons a:visited, .dog-postfootericons a.visited
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #97A6B5;
+}
+
+.dog-postfootericons a:hover, .dog-postfootericons a.hover
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: underline;
+   color: #BA2717;
+}
+
+.dog-footer
+{
+   background: #1F0400;
+   margin:10px auto 0;
+   position: relative;
+   color: #CC0000;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: left;
+   padding: 0;
+}
+
+.dog-footer a,
+.dog-footer a:link,
+.dog-footer a:visited,
+.dog-footer a:hover,
+.dog-footer td, 
+.dog-footer th,
+.dog-footer caption
+{
+   color: #CC0000;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.dog-footer p 
+{
+   padding:0;
+   text-align: left;
+}
+
+.dog-footer a,
+.dog-footer a:link
+{
+   color: #CC0000;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.dog-footer a:visited
+{
+   color: #CC0000;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.dog-footer a:hover
+{
+   color: #FF2424;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.dog-footer img
+{
+   border: none;
+   margin: 5px;
+}
+
+.dog-footer-inner
+{
+   margin: 0 auto;
+   min-width: 700px;
+   max-width: 1920px;
+   width:100%;
+   padding:20px;
+   padding-right: 23px;
+   padding-left: 23px;
+}
+
+.dog-footer li
+{
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 125%;
+   color: #A3B0BD;
+}
+
+.dog-page-footer, 
+.dog-page-footer a,
+.dog-page-footer a:link,
+.dog-page-footer a:visited,
+.dog-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #CC0000;
+}
+
+.dog-page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #CC0000;
+}
+
+img.dog-lightbox
+{
+   cursor: pointer;
+}
+
+#dog-lightbox-bg *
+{
+   padding: 0;
+   margin: 0;
+}
+
+div#dog-lightbox-bg
+{
+   top: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+   z-index: 9999;
+}
+
+img.dog-lightbox-image
+{
+   -webkit-transition: opacity 350ms ease-in-out;
+   -moz-transition: opacity 350ms ease-in-out;
+   -o-transition: opacity 350ms ease-in-out;
+   -ms-transition: opacity 350ms ease-in-out;
+   transition: opacity 350ms ease-in-out;
+   cursor: pointer;
+   z-index: 10000;
+   position: fixed;
+   border: 6px solid #fff;
+   border-radius: 3px;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+
+img.dog-lightbox-image.active
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.lightbox-error
+{
+   position: fixed;
+   background: #fff;
+   z-index: 100;
+   opacity: 0.95;
+   padding: 20px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   width: 300px;
+   height: 80px;
+}
+
+.loading
+{
+   position: fixed;
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   width: 32px;
+   height: 32px;
+   z-index: 10100;
+   opacity: 0.5;
+   padding: 10px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+}
+
+.arrow
+{
+   height: 100px;
+   width: 82px;
+   z-index: 10003;
+   position: fixed;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.arrow.left
+{
+   left: 9px;
+}
+.arrow.right
+{
+   right: 9px;
+}
+
+.arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.arrow.disabled 
+{
+   display: none;
+}
+
+.arrow-t, .arrow-b
+{
+   height: 6px;
+   width: 30px;
+   left: 26px;
+   background-color: #fff;
+   position: relative;
+   border-radius: 3px;
+}
+
+.arrow-t
+{
+   top: 38px;
+}
+
+.arrow-b
+{
+   top: 50px;
+}
+
+.close
+{
+   width: 22px;
+   height: 22px;
+   position: fixed;
+   top: 30px;
+   right: 39px;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.close .cw, .close .ccw
+{
+   position: absolute;
+   top: 8px;
+   left: -4px;
+   width: 30px;
+   height: 6px;
+   background-color: #fff;
+   border-radius: 3px;
+}
+
+.cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt 
+{
+   display: none;
+   color: #fff;
+   font-size: 2.5em;
+}
+
+.ie8 .close-alt, .ie8 .arrow-right-alt, .ie8 .arrow-left-alt {
+   display: block;
+}
+.ie8 .cw, .ie8 .ccw {
+   display: none;
+}
+
+.dog-content-layout .dog-sidebar1
+{
+   margin:0 auto;
+   width: 225px;
+}
+
+.dog-content-layout .dog-content
+{
+   margin:0 auto;
+}
+
+
+
+textarea#comment
+{
+    width:99%;
+}
+
+ul#comments-list div.avatar
+{
+    float:right;    
+}
+
+ul#comments-list, ul#comments-list li
+{
+  background: none;
+  padding:0;
+}
+
+ul#comments-list li li
+{
+  margin-left: 20px;
+}
+
+div.avatar
+{
+  position:relative;
+  margin: 7px;
+  border: 1px solid #aaa;
+  padding: 1px;
+  background: #fff;
+  float:left;
+}
+
+div.avatar img, div.avatar img.wp-post-image
+{
+    margin:0 !important;
+    padding:0;
+    border:none;
+}
+
+span.page-navi-outer, span.page-navi-inner 
+{
+    position:relative;
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+span.page-navi-outer
+{
+  margin: 1px;
+  border: 1px solid #aaa;
+}
+
+span.page-navi-inner 
+{
+  padding: 1px;
+  min-width:14px;
+  line-height:18px;
+  text-align:center;
+  border: 2px solid #fff;
+  font-weight:bold;
+}
+
+a span.page-navi-inner, span.page-navi-caption span.page-navi-inner 
+{
+    border-width:1px;
+    font-weight:normal;
+}
+
+a span.page-navi-outer, span.page-navi-caption
+{
+    margin:2px 1px;
+}
+
+ul#comments-list li cite
+{
+  font-size: 1.2em;
+}
+
+#commentform textarea
+{
+  width: 100%;
+}
+
+#commentform
+{
+  text-align:left;
+}
+
+.rtl #commentform
+{
+  text-align:right;
+}
+
+img.wp-smiley
+{
+  border: none;
+  margin: 1px;
+  vertical-align:middle;
+  padding: 0;
+}
+
+.navigation
+{
+  display: block;
+  text-align: center;
+}
+
+/* Recommended by http://codex.wordpress.org/CSS */
+/* Begin */
+.aligncenter, div.aligncenter, .dog-article .aligncenter img, .aligncenter img.dog-article, .aligncenter img, img.aligncenter
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.aligncenter , p.center 
+{
+   text-align: center; 
+}
+
+.alignleft
+{
+  float: left;
+}
+
+.alignright
+{
+  float: right;
+}
+
+.wp-caption
+{
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  padding-top: 4px;
+  margin: 10px;
+}
+
+.wp-caption img
+{
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+.wp-caption p.wp-caption-text
+{
+  font-size: 11px;
+  line-height: 17px;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+
+.wp-caption, .wp-caption p
+{
+    text-align: center;
+}
+
+.gallery {
+	margin: 0 auto 18px;
+    clear:both;
+    overflow:hidden;
+}
+
+.gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery img {
+	border: 2px solid #cfcfcf;
+}
+
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+
+.gallery dl {
+	margin: 0;
+}
+
+.gallery img {
+	border: 10px solid #f1f1f1;
+}
+
+.gallery br+br {
+	display: none;
+}
+/* End */
+
+
+.hidden
+{
+  display: none;
+}
+
+/* Calendar */
+#wp-calendar {
+  empty-cells: show;
+  margin: 10px auto 0;
+  width: 155px;
+}
+
+#wp-calendar #next a {
+  padding-right: 10px;
+  text-align: right;
+}
+
+#wp-calendar #prev a {
+  padding-left: 10px;
+  text-align: left;
+}
+
+#wp-calendar a {
+  display: block;
+}
+
+#wp-calendar caption {
+  text-align: center;
+  width: 100%;
+}
+
+#wp-calendar td {
+  padding: 3px 0;
+  text-align: center;
+}
+
+.gallery {
+  letter-spacing: normal;
+}
+
+.dog-content {
+  position: relative;
+  z-index: 1;   
+}
+
+#todays-events{
+  position: relative;
+  z-index: 11;    
+}
+
+#upcoming-events{
+  position: relative;
+  z-index: 10;    
+}
+
+img.wp-post-image 
+{
+    margin:0 5px 5px 0 !important;
+}
+
+ul#comments-list li
+{
+    list-style-image: none;
+    background:none;
+    list-style-type:none;
+    
+}
+
+div.dog-footer div.dog-content-layout
+{
+    margin:0 auto;
+    width:100%;
+}
+
+div.dog-layout-cell-size1 
+{
+    width:100%;
+}
+
+div.dog-layout-cell-size2 
+{
+    width:50%;
+}
+div.dog-layout-cell-size3 
+{
+    width:33%;
+}
+
+div.dog-layout-cell-size4
+{
+    width:25%;
+}
+
+.dog-widget-title
+{
+    padding:0 0 0 24px;
+    margin-bottom:0;
+}
+
+div.dog-center-wrapper
+{
+  position: relative;
+  float: right;
+  right: 50%;
+
+}
+
+div.dog-center-inner
+{
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+.firefox2 div.dog-center-inner
+{
+  float: none;
+}
+
+div.breadcrumbs h4, 
+div.breadcrumbs p, 
+li.pingback p, 
+#respond p,
+h3#reply-title, 
+h4#comments, 
+h4.box-title
+{
+    margin:0;
+}
+
+#respond .comment-notes {
+	margin-bottom: 1em;
+}
+
+.form-allowed-tags {
+	line-height: 1em;
+}
+
+#comments-list #respond {
+	margin-left: 23px !important;
+}
+
+#cancel-comment-reply-link {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+#respond .required {
+	color: #ff4b33;
+	font-weight: bold;
+}
+
+#respond label {
+	font-size: 12px;
+}
+
+#respond input {
+	margin: 0 0 9px;
+	width: 98%;
+}
+
+#respond textarea {
+	width: 98%;
+}
+
+#respond .form-allowed-tags {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#respond .form-allowed-tags code {
+	font-size: 11px;
+}
+
+#respond .form-submit {
+	margin: 12px 0;
+}
+
+#respond .form-submit input {
+	width: auto;
+}
+
+.dog-footer .dog-widget-title 
+{
+    font-size:1.2em;
+    padding: 0;
+}
+
+.dog-footer .dog-widget,
+.dog-footer .dog-widget a,
+.dog-footer .dog-widget a:link,
+.dog-footer .dog-widget a:visited,
+.dog-footer .dog-widget a:hover
+{
+    text-align: left;
+}
+
+DIV[id^="GMPmap"] IMG 
+{
+    margin: 0px;
+}
+
+/* Begin Additional CSS Styles */
+.newsdate {
+background: #5A140A;
+color: #D52D1A;
+padding: 10px;
+width: 45px;
+height: 42px;
+float: left;
+margin: 10px 10px 0 0;
+text-align:center;
+border: 3px solid #69170C;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #33090D;
+-webkit-box-shadow: 0px 0px 10px #33090D;
+}
+
+.dog-header:after {
+ height: 350px;
+top: 50px;
+box-shadow: 0px 0px 10px #33090D;
+-webkit-box-shadow: 0px 0px 10px #33090D;
+}
+.dog-blockheader .t, .dog-vmenublockheader .t {white-space: nowrap;}
+/* End Additional CSS Styles */
