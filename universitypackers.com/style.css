@@ -47,10 +47,10 @@ added by Andrea G. 21-nov-2014
 
 */
 
-/* fixes a glitch with outlined buttons */
+/* fixes a glitch with some outlined buttons */
 
 .more-link .btn {
-  margin: 1px !important;
+  margin: 1px;
 }
 
 /* removes bottom padding */
@@ -137,3 +137,10 @@ added by Andrea G. 5-dic-2014
 .tp-caption a:hover {
   color: #fff;
 }
+
+/* registration h3 in pricing page */
+
+.reg-fee .ui--icon-box-title {
+  margin-top: 30px;
+}
+
