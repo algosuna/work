@@ -110,7 +110,13 @@ added by Andrea G. 25-nov-2014
 }
 
 
-/* the overlay in the custom login pages - added by Andrea G. 5-dic-2014 */
+/*
+
+added by Andrea G. 5-dic-2014
+
+*/
+
+/* the overlay in the custom login pages */
 
 .white-overlay {
   background-color: rgba(255,255,255,0.3);
@@ -120,4 +126,14 @@ added by Andrea G. 25-nov-2014
 .white-overlay .photo-credit {
   position:absolute;
   bottom: 10px;
+}
+
+/* changes the link color in the revolution slider */
+
+.tp-caption a {
+  color: #fff;
+}
+
+.tp-caption a:hover {
+  color: #fff;
 }
