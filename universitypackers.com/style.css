@@ -1,0 +1,123 @@
+/**
+
+custom css file for university packers 
+
+*/
+
+
+/*
+
+added by Andrea G. 21-nov-2014
+
+*/
+
+/* changes primary button colors from blue to purple */
+
+.btn-primary {
+  background-color: #670669 !important;
+  background-image: -moz-linear-gradient(top,#b21db5,#670669) !important;
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#b21db5),to(#670669)) !important;
+  background-image: -webkit-linear-gradient(top,#b21db5,#670669) !important;
+  background-image: -o-linear-gradient(top,#b21db5,#670669) !important;
+  background-image: linear-gradient(to bottom,#b21db5,#670669) !important;
+}
+
+button[type="submit"]:hover,
+.searchform .btn-primary:hover,
+.btn-primary:hover {
+  background-color: #670669 !important;
+}
+
+/* removes the last post in latest posts */
+
+.widget-footer .last-item {
+  display:none;
+}
+
+/* sets a fixed with to the footer copyright so the text wont be pushed on two lines */
+
+#footer-bottom #footer-texts {
+  width: 350px;
+}
+
+
+/*
+
+added by Andrea G. 21-nov-2014
+
+*/
+
+/* fixes a glitch with outlined buttons */
+
+.more-link .btn {
+  margin: 1px !important;
+}
+
+/* removes bottom padding */
+
+#page-content {
+  padding-bottom: 0px;
+}
+
+/* adds a thick border to the custom section */
+
+html #page-content .section-bq9it {
+  border-bottom: 15px solid #e4d0e5 !important;
+}
+
+/* removes bottom padding to the custom section */
+
+html #page-content .section-bq9it .ui--section-content {
+  padding-bottom: 0px;
+}
+
+
+/*
+
+added by Andrea G. 25-nov-2014
+
+*/
+
+/* styles disclaimer */
+
+.disclaimer {
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.disclaimer:hover {
+  color: #000000;
+}
+
+/* styles ul in moving day page */
+
+.expectations .ui--list {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.expectations .ui--list li {
+  line-height: 32px;
+}
+
+.expectations .ui--list li + li {
+  margin-top: 30px;
+}
+
+.expectations .ui--list li .list-icon {
+  top: 10px;
+}
+
+
+/* the overlay in the custom login pages - added by Andrea G. 5-dic-2014 */
+
+.white-overlay {
+  background-color: rgba(255,255,255,0.3);
+  padding: 40px 20px 20px;
+}
+
+.white-overlay .photo-credit {
+  position:absolute;
+  bottom: 10px;
+}
